@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo</title>
+	<meta charset="utf-8"> 
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/common.css">
+	<link rel="stylesheet" type="text/css" href="./css/reponsives.css">
+</head>
+<body>
+	<header>
+		<div id="head-wrap_title">
+			<div class="container" id="head-wrap-title-container">
+				<div class="row">
+					<div  class="col-md-5" id="head-logo">
+						<img src="./images/logo.png">
+					</div>
+					<div class="col-md-7">
+						<div id="head-title">	
+							<div class="row">
+								<div class="col-md-6 col-sm-6 col-xs-6" >
+									<div id="head-text">HOTLINE &nbsp</div>
+									<div id="head-number">0969128313</div>
+								</div>
+								<div class="col-md-3"></div>
+								<div class="col-md-3 col-sm-6 col-xs-6" id="head-language">Tiếng việt-English</div>
+							</div>
+						</div>
+						<div id="head-menu">
+							<div class="row">
+                                <!-- Div menu -->
+                                <div class="div-menu">
+                                    <div class="navbar-header">
+                                        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+                                            <span class="sr-only">Toggle navigation</span>
+                                            <span class="icon-bar glyphicon glyphicon-menu-hamburger"></span>
+                                        </button>
+                                    </div>
+                                    <nav id="bs-navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+                                        <ul class="nav navbar-nav" id="navbar-menu">
+                                            <li class="menu-title"> <a id="current" class="active" href="#">TRANG CHỦ</a> </li>
+                                            <li class="menu-title"> <a href="#">GIỚI THIỆU</a> </li>
+                                            <li class="menu-title"> <a href="#">XEM TOUR</a> </li>
+                                            <li class="menu-title"> <a href="#">DU HỌC</a> </li>
+                                            <li class="menu-title"> <a href="#">LIÊN HỆ</a> </li>
+                                            <li class="menu-title"> <a style="margin-right: 0" href="#">liên hệ</a> </li>
+                                        </ul>
+
+                                    </nav>
+                                </div>
+                                <!--End menu -->
+                            </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="head-banner">
+			<div class="container" >
+				<div class="row">
+					<div id="banner-wrap">
+						<div class="col-md-9" >
+							<div id="banner">
+								<div id="myCarousel" class="carousel slide" data-ride="carousel">
+									<!-- Indicators -->
+									<ol class="carousel-indicators">
+										<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+										<li data-target="#myCarousel" data-slide-to="1"></li>
+										<li data-target="#myCarousel" data-slide-to="2"></li>
+										<li data-target="#myCarousel" data-slide-to="3"></li>
+									</ol>
+									<!-- Wrapper for slides -->
+									<div class="carousel-inner" role="listbox">
+										<div class="item active">
+											<img src="./images/banner.jpg" alt="Chania">
+										</div>
+
+										<div class="item">
+											<img src="./images/banner.jpg" alt="Chania">
+										</div>
+
+										<div class="item">
+											<img src="./images/banner.jpg" alt="Flower">
+										</div>
+
+										<div class="item">
+											<img src="./images/banner.jpg" alt="Flower">
+										</div>
+									</div>
+
+									<!-- Left and right controls -->
+									<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+										<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+										<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+										<span class="sr-only">Next</span>
+									</a>
+								</div>
+								<!-- <img src="./images/banner.jpg"> -->
+							</div>
+							<img src="./images/shadow.png">
+						</div>
+						<div class="col-md-3" id="head-formt">
+							<div id="head-formt-content">
+								<div id="formt-text">Tìm tour</div>
+								<div id="formt-group-radio">
+									<div id="radio-in" class="radio">
+										<label><input type="radio" name="optradio">Tìm tour trong nước</label>
+									</div>
+									<div id="radio-out" class="radio">
+										<label><input type="radio" name="optradio">Tìm tour ngoài nước</label>
+									</div>
+								</div>
+								<div id="form-group-dropdownlist">
+									<div id="dropdownlist-in">
+										<label>Chọn điểm đi</label><br>
+										<select class="form-control">
+											<option value="volvo">C#</option>
+											<option value="saab">Java</option>
+											<option value="opel">PHP</option>
+										</select>
+									</div>
+									<div id="dropdownlist-out">
+										<label>Chọn điểm đến</label><br>
+										<select class="form-control">
+											<option value="volvo">HTML</option>
+											<option value="saab">CSS</option>
+											<option value="opel">Javascript</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div id="head-formt-button" >
+								<input type="button" value="Tìm tour" id="form-button" ></input>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</header>
+	<div id="main">
+		<div class="container">
+			<div id="main-text">Tour đang hot</div>
+			<div id="hot-item">
+				<div class="row">
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div id="hot-image">
+							<img src="./images/du_lich_AHZS.png">
+						</div>
+						<div id="hot-title">Bangkok - Pattaya 5N4D
+						</div>
+						<div id="hot-detail">Xem chi tiết</div>
+					</div>	
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div id="hot-image">
+							<img src="./images/du_lich_AHZS.png">
+						</div>
+						<div id="hot-title">Bangkok - Pattaya 5N4D
+						</div>
+						<div id="hot-detail">Xem chi tiết</div>
+					</div>	
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div id="hot-image">
+							<img src="./images/du_lich_AHZS.png">
+						</div>
+						<div id="hot-title">Bangkok - Pattaya 5N4D
+						</div>
+						<div id="hot-detail">Xem chi tiết</div>
+					</div>	
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div id="hot-image">
+							<img src="./images/du_lich_AHZS.png">
+						</div>
+						<div id="hot-title">Bangkok - Pattaya 5N4D
+						</div>
+						<div id="hot-detail">Xem chi tiết</div>
+					</div>	
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<div id="hot-image">
+							<img src="./images/du_lich_AHZS.png">
+						</div>
+						<div id="hot-title">Bangkok - Pattaya 5N4D
+						</div>
+						<div id="hot-detail">Xem chi tiết</div>
+					</div>	
+				</div>
+			</div>
+			<div id="item-tour">
+				<div class="row">
+					<div class="col-md-6">
+						<div id="tour-text">Du lịch trong nước</div>
+						<div id="tour-title">Sài Gòn – Sapa – Hàm Rồng lễ 2/9 giá tốt (2015)
+						</div>
+						<div id="item-tour-wrap">
+							<div id="item-tour-wrap-image">
+								<img src="./images/du_lich_AHZS.png">
+							</div>
+							<div id="item-tour-wrap-left">
+								<div>Giá từ</div>
+								<div>Thời gian</div>
+								<div>Khởi hành</div>
+								<div>Vận chuyển</div>
+							</div>
+							<div id="item-tour-wrap-right">
+								<div id="item-tour-price">13.999.000 đ</div>
+								<div>4 Ngày 3 Đêm</div>
+								<div>01/9/2015</div>
+								<div>Máy bay</div>
+							</div>	 	
+						</div>
+						<div id="item-tour-wrap-content">
+							Du Lịch Phú Quốc: 3 ngày 2 đêm giá tốt (2015)<br>
+							Du Lịch Miền Trung: Đảo Lý Sơn – Núi Thiên Ấn giá tốt<br>
+							Du Lịch Miền Trung: Động Thiên Đường 5 ngày giá tốt<br>
+							Hà Tiên – Phú Quốc: 3 ngày 3 đêm khởi hành từ Sài Gòn<br>
+							Du Lịch Miền Trung: Phong Nha 4 ngày<br>
+							Du Lịch Phú Quốc 3 ngày giá tốt khởi hành từ Sài Gòn
+						</div>
+						<div id="item-tour-wrap-other"><a href="#">Xem thêm các tour khác</a></div>
+					</div>
+					<div class="col-md-6">
+						<div id="tour-text">Du lịch trong nước</div>
+						<div id="tour-title">Sài Gòn – Sapa – Hàm Rồng lễ 2/9 giá tốt (2015)
+						</div>
+						<div id="item-tour-wrap">
+							<div id="item-tour-wrap-image">
+								<img src="./images/du_lich_AHZS.png">
+							</div>
+							<div id="item-tour-wrap-left">
+								<div>Giá từ</div>
+								<div>Thời gian</div>
+								<div>Khởi hành</div>
+								<div>Vận chuyển</div>
+							</div>
+							<div id="item-tour-wrap-right">
+								<div id="item-tour-price">13.999.000 đ</div>
+								<div>4 Ngày 3 Đêm</div>
+								<div>01/9/2015</div>
+								<div>Máy bay</div>
+							</div>	 	
+						</div>
+						<div id="item-tour-wrap-content">
+							Du Lịch Phú Quốc: 3 ngày 2 đêm giá tốt (2015)<br>
+							Du Lịch Miền Trung: Đảo Lý Sơn – Núi Thiên Ấn giá tốt<br>
+							Du Lịch Miền Trung: Động Thiên Đường 5 ngày giá tốt<br>
+							Hà Tiên – Phú Quốc: 3 ngày 3 đêm khởi hành từ Sài Gòn<br>
+							Du Lịch Miền Trung: Phong Nha 4 ngày<br>
+							Du Lịch Phú Quốc 3 ngày giá tốt khởi hành từ Sài Gòn
+						</div>
+						<div id="item-tour-wrap-other"><a href="#">Xem thêm các tour khác</a></div>
+					</div>
+				</div>
+			</div>
+			<div id="carousel">
+				<div class="row">
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<img src="./images/main-slide.jpg">
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<img src="./images/main-slide.jpg">
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-12">
+						<img src="./images/main-slide.jpg">
+					</div>
+				</div>
+			</div>
+
+			<div id="slide-customer" class="container">
+				<div class="row">
+					<div id="footer-Carousel" class="carousel slide" data-ride="carousel">
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner" role="listbox">
+							<div class="item active">
+								<div class="col-md-4 col-sm-4 ">
+									<div class="row">
+										<div class="col-md-4 col-sm-4 align-image">
+											<img class="img-circle" src="./images/00008083.png" alt="" />
+										</div>
+										<div class="col-md-8 col-sm-8">
+											<div id="item-slide-name" class="model_name">huỳnh thị nhung</div>
+											<div id="item-slide-content" class="model_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit </div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-4 col-sm-4 ">
+									<div class="row">
+										<div class="col-md-4 col-sm-4 align-image">
+											<img class="img-circle" src="./images/00008083.png" alt="" />
+										</div>
+										<div class="col-md-8 col-sm-8">
+											<div id="item-slide-name" class="model_name">phạm thùy linh</div>
+											<div id="item-slide-content" class="model_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-4 col-sm-4">
+									<div class="row">
+										<div class="col-md-4 col-sm-4 align-image">
+											<img class="img-circle" src="./images/00008083.png" alt="" />
+										</div>
+										<div class="col-md-8 col-sm-8">
+											<div id="item-slide-name" class="model_name">trương tuấn an</div>
+											<div id="item-slide-content" class="model_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="col-md-4 col-sm-4">
+									<div class="row">
+										<div class="col-md-4 col-sm-4 align-image">
+											<img class="img-circle" src="./images/00008083.png" alt="" />
+										</div>
+										<div class="col-md-8 col-sm-8">
+											<div id="item-slide-name" class="model_name">phạm thùy linh</div>
+											<div id="item-slide-content" class="model_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4">
+									<div class="row">
+										<div class="col-md-4 col-sm-4 align-image">
+											<img class="img-circle" src="./images/00008083.png" alt="" />
+										</div>
+										<div class="col-md-8 col-sm-8">
+											<div id="item-slide-name" class="model_name">trương tuấn an</div>
+											<div id="item-slide-content" class="model_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4">
+									<div class="row">
+										<div class="col-md-4 col-sm-4 align-image">
+											<img class="img-circle" src="./images/00008083.png" alt="" />
+										</div>
+										<div class="col-md-8 col-sm-8">
+											<div id="item-slide-name" class="model_name">huỳnh thị nhung</div>
+											<div id="item-slide-content" class="model_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit </div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Left and right controls -->
+						<a class="left carousel-control" href="#footer-Carousel" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#footer-Carousel" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div> 
+	</div>
+	<footer>
+		<div class="container">
+			<div id="footer-wrap" class="row">
+				<div class="col-md-3">
+					<div id="footer-image">
+						<img src="./images/VectorSmartObject.png">
+					</div>
+					<div id="footer-left">
+						Giới thiệu<br>
+						Tour trong nước<br>
+						Tour ngoài nước<br>
+					</div>
+					<div id="footer-right">
+						Du học<br>
+						dịch vụ<br>
+						liên hệ<br>
+					</div>
+				</div>
+				<div id="footer-col-1" class="col-md-3">
+					Du lịch Singapore<br><br>
+					Du lịch  Malaysia<br><br>
+					Du lịch Đài Loan<br><br>
+					Du lịch Ấn Độ<br><br>
+					Du lịch Campuchia<br><br>
+					Du lịch Hàn Quốc<br><br>
+					Du lịch Brunei<br><br>
+					Du lịch Hồng Kông<br><br>
+				</div>
+				<div id="footer-col-1" class="col-md-3">
+					Du lịch Malaysia<br><br>
+					Du lịch Indonesia<br><br>
+					Du lịch Lào<br><br>
+					Du lịch Israel<br><br>
+					Du lịch Triều Tiên<br><br>
+					Du lịch Philippines<br><br>
+					Du lịch Nhật Bản<br><br>
+					Du lịch Trung Quốc<br><br>
+				</div>
+				<div id="footer-col-1" class="col-md-3">
+					Du lịch Singapore<br><br>
+					Du lịch  Malaysia<br><br>
+					Du lịch Đài Loan<br><br>
+					Du lịch Ấn Độ<br><br>
+					Du lịch Campuchia<br><br>
+					Du lịch Hàn Quốc<br><br>
+					Du lịch Brunei<br><br>
+					Du lịch Hồng Kông<br><br>
+				</div>
+			</div>
+		</div>
+		<div id="temp">
+			dfggfhghjkjhkhj
+		</div>
+	</footer>
+	
+	<script src="./js/jquery.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+</html>

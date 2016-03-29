@@ -1,0 +1,356 @@
+/*
+Create by: Lê Lam Hải
+Time: 12 March 2016
+Mail: leelamhair@gmail.com
+Phone: 0969128313
+*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,800);
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 972px;
+  }
+}
+
+.container {
+ 	padding: 0 15px;
+    margin-right: auto;
+}
+
+body {
+	font-size: 15px;
+	font-family: "Open Sans", Tahoma, Arial, Sans-Serif;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*header*/
+header {
+	background-image: url("../images/head_bg.jpg");
+	background-repeat: no-repeat;
+	max-width: 100%;
+	background-size: cover;
+	margin-bottom: 50px;
+}
+
+
+
+#head-wrap_title {
+	background-image: url("../images/head-title-bg.png");
+	border-style: solid;
+    border-width: 1px;
+	border-bottom-color: #0076a1;
+	border-top:none;
+	border-right:none;
+	border-left:none;
+	padding-top: 18px;
+	margin-bottom: 50px;
+}
+
+#head-title {
+	margin-bottom: 57px;
+}
+
+#head-text {
+	float: left;
+	font-size: 13pt;
+	padding: 6px 0 0 0;
+}
+
+#head-number {
+	float: left;
+	font-size: 20pt;
+	font-weight: bold;
+	color: #df0000;
+}
+
+#head-language {
+	font-size: 9pt;
+}
+
+#head-menu ul li a {
+	font-size: 10pt;
+	font-weight: bold;
+	color: #545454;
+	text-decoration: none;
+	background: transparent !important;
+}
+
+#head-menu ul li .active {
+	color: #0076a1;
+	border-style: solid;
+    border-width: 3px;
+	border-bottom-color: #0076a1;
+	border-top:none;
+	border-right:none;
+	border-left:none;
+	padding-bottom: 26px;
+}
+
+#head-menu ul li a:hover {
+	color: #0076a1;
+	border-style: solid;
+    border-width: 3px;
+	border-bottom-color: #0076a1;
+	border-top:none;
+	border-right:none;
+	border-left:none;
+	padding-bottom: 26px;
+}
+#banner-wrap {
+	margin-bottom: 15px;
+}
+.col-md-9 #banner img{
+	max-width: 100%;
+}
+
+.col-md-9 img{
+	max-width: 100%;
+    margin-top: -20px;	
+}
+
+#head-formt{
+	position: relative;
+}
+    
+#head-formt-content {
+	background-color: #ffffff;
+	padding: 26px 0 30px 18px;
+	margin-bottom: 20px;
+}
+
+#formt-text {
+	color: #0076a1;
+	font-size: 14pt;
+	padding: 0 0 16px 0;
+	border-style: solid;
+	border-width: 1px;
+	border-top: none;
+	border-right: none;
+	border-bottom-color: #10b5c0;
+	border-left: none; 
+	margin: 0 0 22px 0;
+}
+
+#radio-in {
+	padding: 0 0 18px 0;
+	font-size: 10pt;
+}
+
+#radio-out {
+	padding: 0 0 30px 0;
+	font-size: 10pt;
+}
+
+#form-group-dropdownlist {
+	padding-right: 26px;
+}
+
+#dropdownlist-in {
+	padding: 0 0 26px 0;
+}
+
+select {
+	width: 100%;
+	padding: 8px 8px;
+	background-image: url("../images/dropdownlist-bg.png");
+}
+
+#form-button {
+	padding: 10px 10px;
+	font-weight: bold;
+	background-color: transparent;
+	background-image: url("../images/button-bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-style: solid;
+	border-width: 1px;
+	border-top-color: #ffffff;
+	border-right-color: #ffffff;
+	border-bottom-color: #ffffff;
+	border-left-color: #ffffff;
+	width: 100%;
+}
+
+
+#head-formt-button input:hover {
+	-webkit-transition: color 0.6s ease-out;
+	-moz-transition: color 0.6s ease-out;
+	-ms-transition: color 0.6s ease-out;
+	-o-transition: color 0.6s ease-out;
+	transition: color 0.6s ease-out;
+	background-color: red;
+
+}
+
+
+/*main*/
+#main-text {
+	width: 40%;
+	padding-left: 30px;
+	font-size: 12pt;
+	color: #6e6e6e;
+	border-style: solid;
+	border-width: 1px;
+	border-top: none;
+	border-right: none;
+	border-bottom-color: #10b5c0;
+	border-left: none;
+	padding: 0 0 20px 0px;
+	margin: 0 0 20px 30px;
+}
+#hot-item{
+	margin-bottom: 60px;
+}
+
+#hot-image img {
+	width: 100%;
+}
+
+#hot-title {
+	font-size: 15pt;
+	color: #777777;
+	text-align: center;
+}
+
+#hot-detail {
+	font-size: 8pt;
+	color: #10b5c0;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	border-top: none;
+	border-right: none;
+	border-bottom-color: #b9ced5;
+	border-left: none;
+	margin: 0 25% 15px 25%;
+}
+
+#tour-title {
+	color: #6e6e6e;
+}
+
+#item-tour{
+	margin: 0 0 30px 0;
+}
+
+#item-tour-wrap {
+	color: #6e6e6e;
+}
+
+#tour-text {
+	border-style: solid;
+	border-width: 1px;
+	border-top: none;
+	border-right: none;
+	border-bottom-color: #b9ced5;
+	border-left: none;
+	font-size: 13pt;
+}
+
+#item-tour-wrap-image {
+	float: left;
+}
+
+#item-tour-wrap-left {
+	float: left;
+	padding: 10px 10px;
+}
+
+#item-tour-wrap-left div{
+	padding: 4px 0;
+}
+
+#item-tour-wrap-right {
+	float: left;
+	padding: 10px 10px;
+}
+
+#item-tour-wrap-right div{
+	padding: 4px 0;
+}
+
+#item-tour-price {
+	color: #df0000;
+	font-weight: bold;
+}
+
+#item-tour-wrap-content {
+	color: #6e6e6e;
+	padding: 0 0 15px 0;
+	clear: both;
+}
+
+#item-tour-wrap-other a{
+	color: #10b5c0;
+	float: right;
+	text-decoration: none;
+}
+
+.img-circle {
+	border-radius: 50%;
+	width: 80px;
+	height: 80px; 
+}
+
+#item-sile-wrap img{
+	float: left;
+	max-width: 100px;
+}
+
+#item-slide-name {
+	font-size: 15pt;
+	color: #959595;
+}
+
+#item-slide-content {
+	font-size: 9pt;
+	color: #959595;
+
+}
+
+#carousel
+{
+	margin: 0 0 60px 0;
+}
+
+#slide-customer {
+	margin: 0 0 30px 0;
+}
+
+footer {
+	background-color: #e7e7e7;
+	font-size: 10pt;
+}
+
+#footer-wrap{
+	padding: 30px 0;
+}
+
+#footer-image{ 
+	margin: 0 0 15px 0;
+}
+
+#footer-left {
+	float: left;
+	margin: 0 15px 0 0;
+}
+
+#footer-right {
+	float: left;
+}
+
+#temp {
+	background-color: #323232;	
+}
+
+/*overria*/
+.navbar-collapse {
+	padding: 0 0 0 0;
+}
